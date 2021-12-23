@@ -26,7 +26,7 @@ I believe that my ability to learn new skills will lead me through this path of 
 ## Courses
 * Skill-up (Testing courses)
 * Steamline (English courses)
-* RS Schools (JavaScript/Front-end. Stage 0)
+* RS School (JavaScript/Front-end. Stage 0)
 
 ## Education
 **Belarusian State University**<br>
