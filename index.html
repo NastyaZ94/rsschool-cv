@@ -5,8 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <div class="big-container">
+        <div class="main-column">
+            <header class="header">
+                <h1 class="name">Anastasia Zaitsava</h1>
+                <h2 class="occupation">Front-End Developer</h2>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                        <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>             
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="main-container">
+                <section class="section" id="about-me">
+                    <h2>About me</h2>
+                    <p class="main-info">I have no experience in IT whatsoever. 
+                        It's only my dream to be a front-end developer one day. 
+                        I've tried several free online courses to make my dream come true. 
+                        'JavaScript/Front-end' from RS School is the best and the most promising of them all.</p>
+                </section>
+                <section class="section" id="education">
+                    <h2>Education</h2>
+                    <p class="main-info"> 2003 - 2007<br>
+                        Syktyvkar Forest Institute - Management</p>
+                    <p class="main-info">2021 - currently<br>
+                        RS School - JavaScript/Front-end. Stage 0.</p>
+                </section>
+                <section class="section" id="experience">
+                    <h2>Experience</h2>
+                    <p class="main-info">I haven't had any experience in IT yet.</p>
+                </section>
+                <section class="section" id="code">
+                    <h2>Code Example</h2>
+                    <p class="main-info">The simplest JavaScript code. My first one :)</p>
+                    <code class="code-example">
+                        <span style="color: blue;">function</span> greet(){<br>
+                        &nbsp;&nbsp;<span style="color: blue;">return</span> <span style="color: red;">'hello world!'</span><br>
+                        }
+                    </code>
+                </section>
+                <section class="section" id="project">
+                    <h2>Project</h2>
+                    <a href="https://lucille81.github.io/rsschool-cv/" target="_blank" class="project-link main-info">CV for RS School, JavaScript/Front-end. Stage 0.</a>
+                </section>          
+            </main>
+        </div>
+        <div class="side-column">
+            <div class="foto-container">
+                <img src="Photo.png" class="foto" alt="My avatar">
+            </div>
+            <section class="side-section contact-section" id="contact">
+                <h2>Contact</h2>
+                <ul class="contact-list">
+                    <li>
+                        <img src="assets/img/phone.svg" alt="Phone Icon" width="20" height="20">
+                        <p>Phone: +7 908 777-77-77</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/email.svg" alt="Email Icon" width="20" height="20">
+                        <p>milakis2601@gmail.com
+                    </li>
+                    <li>
+                        <img src="assets/img/github.svg" alt="GitHub Icon" width="20" height="20">
+                        <p>GitHub: lucille81</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/discord.svg" alt="Discord Icon" width="20" height="20">
+                        <p>Discord: Lucille(@lucille81)</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="side-section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </section>
+            <section class="side-section" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English - B1 (Intermediate)</li>
+                    <li>Russian - Native</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <a href="https://github.com/Lucille81" target="_blank"><img src="assets/img/github.svg" alt="GitHub Icon" width="40" height="40"></a>
+        </div>
+        <div>&copy; 2021</div>
+        <div><a href="https://rs.school/js-stage0" target="_blank"><img src="assets/img/rsschool.svg" alt="logo RS School" width="100"></a></div>
+    </footer>
 </body>
 </html>
