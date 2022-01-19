@@ -3,8 +3,13 @@ body {
 }
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   .header {
     border: 1px solid red
 
+  }
+  .big-conteiner {
+      display:flex;
   }
